@@ -3,6 +3,7 @@ import { Plus, Search, Download, Check, X, Clock, FileText, CalendarDays, Users,
 import '../styles.css';
 
 const seed = {
+  Reports: [{name:'Recruitment funnel report',detail:'Applications, screening, interviews, offers and hires',status:'Ready',type:'Hiring analytics'},{name:'Department hiring report',detail:'Open roles, time-to-fill and team headcount',status:'Ready',type:'Department analytics'},{name:'Source effectiveness report',detail:'Candidate sources and conversion rates',status:'Ready',type:'Source analytics'},{name:'Monthly hiring summary',detail:'Hiring activity and pending requisitions',status:'Ready',type:'Monthly summary'}],
   'User Management': [{name:'Aarav Mehta',detail:'aarav@hireflow.demo',status:'Active',type:'HR Manager'},{name:'Priya Sharma',detail:'priya@hireflow.demo',status:'Active',type:'Recruiter'},{name:'Rohan Iyer',detail:'rohan@hireflow.demo',status:'Pending',type:'Interview Panel'}],
   'Roles & Permissions': [{name:'Super Admin',detail:'Platform-wide access',status:'Active',type:'All permissions'},{name:'HR Manager',detail:'Hiring and people operations',status:'Active',type:'HR permissions'},{name:'Recruiter',detail:'Jobs and candidate pipeline',status:'Active',type:'Recruitment permissions'}],
   'Company Settings': [{name:'Company profile',detail:'HireFlow Technologies',status:'Active',type:'General'},{name:'Email notifications',detail:'Application and interview alerts',status:'Active',type:'Notifications'}],
