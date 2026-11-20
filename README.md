@@ -79,3 +79,10 @@ The frontend now uses one shared login form. The entered email and password are 
 | Candidate | candidate@gmail.com | candidate10 |
 
 **Security note:** These are frontend-only demo credentials for local prototyping. They are visible in the browser bundle and are not secure authentication. Before production use, move credential validation to a backend, store salted password hashes, issue a secure session/token, and enforce role permissions on every protected API route.
+
+
+## Role-specific frontend workflows
+
+The role workspaces include interactive record management for platform administration, company administration, HR operations, recruiting, interview panels, finance/payroll, executive approvals, reporting managers, employees and candidates. Workspace pages provide local create/edit/delete actions where appropriate, search, status filters, CSV export and workflow status updates. The browser stores workspace changes in local storage, so they persist across refreshes in the same browser.
+
+The permission matrix, profile editor, hiring approvals, interview feedback, offer/onboarding tracking, budget and payroll views are frontend demonstrations only. No server-side authorization, real email, file upload, payroll processing or cross-user synchronization is provided in this frontend-only milestone.
